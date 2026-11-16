@@ -1,0 +1,4 @@
+/target
+*.db
+# Payroll / HR exports (personal data) stay out of git
+/Import Files/

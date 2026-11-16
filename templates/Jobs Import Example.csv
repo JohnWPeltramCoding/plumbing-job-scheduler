@@ -1,0 +1,6 @@
+Source ID,Schedule,Project Code,Project Name,Lot,Phase,Status,Crew,Start Date,Start Time,Hours Per Day,Days,Include Saturday,Include Sunday,Water Tank Size,Kitchen Sink,Notes,Comments,Field: Permit #,Field: Superintendent,Field: Site Contact Phone,Field: Gate / Lockbox Code,Field: PO #
+JOB-10421,Rough-In,WIL-220,Willow Creek Townhomes,41,Rough-In,Scheduled,Zachary McBride,2026-11-18,7:00 AM,8,2,No,No,,,"Stub-outs per plan sheet P2, verify tub location",,BLD-26-0412,Dana R.,253-555-0142,1942,PO-88213
+JOB-10422,Rough-In,WIL-220,Willow Creek Townhomes,42,Underground,Confirmed,,2026-11-20,7:30 AM,8,1,No,No,,,Need locate ticket before digging,Builder called 11/12,BLD-26-0413,Dana R.,253-555-0142,1942,PO-88214
+JOB-10430,Rough-In,MAP-410,Maple Grove Clubhouse,1,Underground,Scheduled,Darrel Whitfield,2026-11-20,7:00 AM,10,3,Yes,No,,,"Commercial underground; Friday start, runs Fri, Sat, Mon",,COM-26-0077,Lee T.,253-555-0199,,PO-88302
+JOB-10433,Trim,OAK-101,Oak Ridge Estates,17,Trim / Final,Scheduled,,2026-12-02,12:30 PM,4,1,No,No,50 gal,Double Bowl,,Customer wants fixtures from upgrade package,BLD-26-0398,Pat M.,,,PO-88340
+JOB-10440,Trim,SUM-305,Summit Park Phase 2,9,Water Heater,On Hold,,,,,,,,Tankless,,Waiting on gas meter set - leave unscheduled,,,,,,

@@ -1,0 +1,27 @@
+[package]
+name = "plumbing-scheduler"
+version = "0.1.0"
+edition = "2021"
+description = "Native Windows scheduler for plumbing jobs and crews"
+
+[dependencies]
+eframe = "0.29.1"
+egui_extras = { version = "0.29.1", features = ["datepicker"] }
+rusqlite = { version = "0.32.1", features = ["bundled"] }
+chrono = "0.4"
+argon2 = { version = "0.5.3", features = ["std"] }
+# Secure OS random numbers for password salts.
+rand_core = { version = "0.6", features = ["getrandom"] }
+# Native Windows "Open file" dialog (Import Mileage).
+rfd = "0.15"
+
+# Password hashing is deliberately expensive; optimize it even in debug builds
+# so signing in during development isn't sluggish.
+[profile.dev.package.argon2]
+opt-level = 3
+[profile.dev.package.blake2]
+opt-level = 3
+
+[profile.release]
+opt-level = 3
+lto = "thin"
